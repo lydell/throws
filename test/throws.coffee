@@ -16,7 +16,7 @@ see <http://www.gnu.org/licenses/>.
 ###
 
 assert = require "assert"
-throws = require "../src/throws"
+throws = require "throws"
 sinon  = require "sinon"
 
 _throws = require "../src/throws"
