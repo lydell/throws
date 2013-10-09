@@ -1,4 +1,4 @@
-rm -rf lib
+rm -f lib/*
 coffee -cbo lib/ src/
 
 component build -s throws -o . -n throws

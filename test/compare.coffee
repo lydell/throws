@@ -30,7 +30,7 @@ describe "compare", ->
 		obj = {}
 		class Foo
 		class Bar
-			name: "Bar"
+			@name: "Bar"
 		assert compare(new Foo, Bar, null, obj) is false
 		assert obj.message is "Expected error to be an instance of `Bar`"
 
