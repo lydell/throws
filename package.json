@@ -17,8 +17,8 @@
     "assert"
   ],
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script",
-    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+    "test": "mocha",
+    "prepublish": "build.sh"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
@@ -26,6 +26,8 @@
     "sinon": "~1.7.3",
     "equals": "~0.3.2",
     "throws": "~0.1.1",
-    "yaba": "~0.1.1"
+    "yaba": "~0.1.1",
+    "component": "~0.17.6",
+    "browserify": "~2.34.0"
   }
 }

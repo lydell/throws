@@ -89,9 +89,9 @@ describe "parse", ->
 
 
 	it "implicitly throws errors for invalid regexes (including their modifiers)", ->
-		assert throws SyntaxError,          -> parse("/(/", "|")
-		assert throws SyntaxError("flags"), -> parse("/a/o", "|")
-		assert throws SyntaxError("flags"), -> parse("/a//;%", "|")
+		assert throws SyntaxError,         -> parse("/(/", "|")
+		assert throws SyntaxError("flag"), -> parse("/a/o", "|")
+		assert throws SyntaxError("flag"), -> parse("/a//;%", "|")
 
 
 	it "throws an error for unterminated regexes", ->

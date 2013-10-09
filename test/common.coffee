@@ -27,4 +27,7 @@ equal = (actual, expected)->
 	assert.expected = expected
 	equals(actual, expected)
 
+beforeEach ->
+	assert.runs = 0
+
 module.exports = {assert, throws, equal, sinon}

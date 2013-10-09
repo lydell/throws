@@ -55,10 +55,4 @@ throws.compare   = compare
 throws.splitChar = "|"
 throws.messageHolder = {}
 
-switch
-	when typeof define is "function" and define.amd
-		define(throws)
-	when typeof module is "object"
-		module.exports = throws
-	else
-		@throws = throws
+module.exports = throws

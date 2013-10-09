@@ -49,6 +49,21 @@ Installation
 ============
 
 `npm install throws`
+`component install lydell/throws`
+
+CommonJS: `var throws = require("throws")`
+
+AMD and regular old browser globals: Use ./throws.js
+
+
+Tests
+=====
+
+Node.js: `npm test`
+
+Browser: Open ./test/browser/index.html
+
+
 
 
 Usage

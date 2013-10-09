@@ -1,0 +1,21 @@
+{
+  "name": "throws",
+  "version": "0.1.1",
+  "license": "LGPLv3",
+  "description": "Helps testing error throwing of functions.",
+  "main": "lib/throws.js",
+  "repo": "lydell/throws",
+  "keywords": [
+    "throw",
+    "throws",
+    "throwing",
+    "error",
+    "test",
+    "assert"
+  ],
+  "scripts": [
+    "lib/throws.js",
+    "lib/parse.js",
+    "lib/compare.js"
+  ]
+}
