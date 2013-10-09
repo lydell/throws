@@ -15,9 +15,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 see <http://www.gnu.org/licenses/>.
 ###
 
-assert = require "assert"
-throws = require "throws"
-equal  = require "equals"
+{assert, throws, equal} = require "./common"
 
 parse = require "../src/parse"
 
