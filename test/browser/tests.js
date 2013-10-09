@@ -10671,5 +10671,5 @@ describe("throws", function() {
   });
 });
 
-},{"../src/throws":42,"./common":43}]},{},[43,44,45,46])
+},{"../src/throws":42,"./common":43}]},{},[43,44,46,45])
 ;
