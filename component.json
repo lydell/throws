@@ -1,6 +1,6 @@
 {
   "name": "throws",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "LGPLv3",
   "description": "Helps testing error throwing of functions.",
   "main": "lib/throws.js",
