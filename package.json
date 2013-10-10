@@ -1,6 +1,6 @@
 {
   "name": "throws",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Simon Lydell",
   "license": "LGPLv3",
   "description": "Helps testing error throwing of functions.",
@@ -26,7 +26,7 @@
     "sinon": "~1.7.3",
     "equals": "~0.3.2",
     "throws": "~0.1.1",
-    "yaba": "~0.1.7",
+    "yaba": "~0.1.8",
     "component": "~0.17.6",
     "browserify": "~2.34.0"
   }
