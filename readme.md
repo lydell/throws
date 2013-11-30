@@ -41,7 +41,7 @@ assert(throws(Error(["using a comma as split character", "allows for using", /an
 What it can look like in CoffeeScript:
 
 ```coffeescript
-assert throws Error("string|#{/regex/}"|string2), -> fn("invalid", "args")
+assert throws Error("string|#{/regex/}|string2"), -> fn("invalid", "args")
 ```
 
 [yaba]: https://github.com/lydell/yaba
@@ -50,8 +50,7 @@ assert throws Error("string|#{/regex/}"|string2), -> fn("invalid", "args")
 Installation
 ============
 
-`npm install throws`
-`component install lydell/throws`
+`npm install throws` or `component install lydell/throws`
 
 CommonJS: `var throws = require("throws")`
 
@@ -64,8 +63,6 @@ Tests
 Node.js: `npm test`
 
 Browser: Open ./test/browser/index.html
-
-
 
 
 Usage
