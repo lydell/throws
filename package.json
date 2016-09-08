@@ -1,6 +1,6 @@
 {
   "name": "throws",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Simon Lydell",
   "license": "LGPLv3",
   "description": "Helps testing error throwing of functions.",
